@@ -22,7 +22,7 @@ class Radar:
     elif velocidade > self.velocidade_maxima and velocidade <= self.velocidade_maxima + 10:
         print('Levou multa leve')
 
-    elif velocidade >= self.velocidade_maxima + 11 and velocidade <= self.velocidade_maxima + 20:
+    elif velocidade >= self.velocidade_maxima + 10 and velocidade <= self.velocidade_maxima + 20:
         print('Levou multa grave')
 
     elif velocidade > self.velocidade_maxima + 20:
